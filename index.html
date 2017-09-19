@@ -159,9 +159,7 @@
             }
         }
         nodesSet.update(updateArray);
-       // redraw();
-        //releasenode();
-        //network.stabilize();
+        network.stabilize();
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
