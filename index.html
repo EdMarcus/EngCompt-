@@ -159,7 +159,9 @@
             }
         }
         nodesSet.update(updateArray);
+        Object w = network.getviewposition();
         network.stabilize();
+        network.moveto(w);
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
