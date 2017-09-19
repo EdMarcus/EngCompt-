@@ -165,7 +165,10 @@
             position:{x:w.x, y:w.y},
             scale:1.0,
             offset:{x:w.x, y:w.y},
-            animation:0,
+            animation: {             // animation object, can also be Boolean
+      duration: 1000,                 // animation duration in milliseconds (Number)
+      easingFunction: "easeInOutQuad" // Animation easing function, available are:
+    }  
         }
         network.moveto(options);
         network.releasenode();
