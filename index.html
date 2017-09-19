@@ -168,6 +168,7 @@
             animation:0,
         }
         network.moveto(options);
+        network.releasenode();
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
