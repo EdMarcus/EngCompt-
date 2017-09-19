@@ -159,20 +159,7 @@
             }
         }
         nodesSet.update(updateArray);
-        var w = network.getviewposition();
         network.stabilize();
-        var options ={
-            position:{x:w.x, y:w.y},
-            scale:1.0,
-            offset:{x:w.x, y:w.y},
-            animation: {             // animation object, can also be Boolean
-      duration: 1000,                 // animation duration in milliseconds (Number)
-      easingFunction: "easeInOutQuad" // Animation easing function, available are:
-    }  
-        }
-        network.moveto(options);
-        network.releasenode();
-        return;
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
