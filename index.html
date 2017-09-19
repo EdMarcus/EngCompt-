@@ -159,9 +159,15 @@
             }
         }
         nodesSet.update(updateArray);
-        Object w = network.getviewposition();
+        var w = network.getviewposition();
         network.stabilize();
-        network.moveto(w);
+        var options ={
+            position:{x:w.x, y:w.y},
+            scale:1.0,
+            offset:{x:w.x, y:w.y},
+            animation:0,
+        }
+        network.moveto(options);
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
