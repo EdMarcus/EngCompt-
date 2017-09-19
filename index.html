@@ -172,6 +172,7 @@
         }
         network.moveto(options);
         network.releasenode();
+        return;
     });
     network.on("doubleClick", function (params) {
         params.event = "[original event]";
