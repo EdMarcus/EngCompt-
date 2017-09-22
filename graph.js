@@ -4,7 +4,7 @@ var nodesSet = new vis.DataSet([
     {level: 1, id: 'CEA001', label: 'GAAL', title: 'CEA001 GEOMETRIA ANALITICA E ALGEBRA LINEAR'},
     {level: 1, id: 'CEA031', label: 'Química', title: 'CEA031 QUIMICA GERAL'},
     {level: 1, id: 'CEA160', label: 'Cálculo I', title: 'CEA160 CALCULO DIFERENCIAL E INTEGRAL I'},
-    {level: 1, id: 'CEA030', label: 'Prog I', title: 'CEA030 PROGRAMACAO DE COMPUTADORES I'},
+    {level: 1, id: 'CSI030', label: 'Prog I', title: 'CSI030 PROGRAMACAO DE COMPUTADORES I'},
     {level: 1, id: 'CSI201', label: 'Introdução à EC', title: 'CSI201 INTRODUCAO A ENGENHARIA DE COMPUTACAO'},
     {level: 1, id: 'CSI427', label: 'Metodologia de pesquisa', title: 'CSI427 METODOLOGIA DE PESQUISA APLICADA A COMPUTACAO'},
     {level: 1, id: 'EAD707', label: 'Comunicação e expressão', title: 'EAD707 COMUNICACAO E EXPRESSAO'},
